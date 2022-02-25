@@ -42,11 +42,10 @@ item-card组件
   例子：
     <item-card icon="record" date="2021-05-10" forward title="记录" download preview />
 
-2021.5.11 23:52
+
 
 加入了一个algorithm算法的代码，放错位置了，这个代码是写分类算法的
-2021。5.8 16：10
-胡思可
+
 
 icon文件夹放置的为小程序内需要的图标
 
@@ -60,7 +59,5 @@ project.config.json和sitemap.json为全局参数确认文件和sitemap，非必
 
 
 
-2021.4.19 10：47 
 
-马鸣骏
 
