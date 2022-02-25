@@ -1,0 +1,2 @@
+<!--pages/dataRecord/dataRecord.wxml 数据录入-->
+<navbar title="数据录入" back></navbar>

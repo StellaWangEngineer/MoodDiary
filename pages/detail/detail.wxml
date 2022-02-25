@@ -1,0 +1,16 @@
+<!--pages/detail.wxml-->
+<navbar back pageType="detail" />
+<view>
+  <view class="title">{{article.title}}</view>
+  <view class="add_date">{{article.date}}</view>
+  <view class="photo">
+    <image src="{{article.img}}"></image>
+  </view>
+  <view class="content">
+    <text>{{article.things}}</text>
+  </view>
+</view>
+<view class="handle">
+  <button size="mini" bindtap="goToModify" class="detail_modify">修改</button>
+  <button size="mini" bindtap="goToDelete" class="detail_delete">删除</button>
+</view>

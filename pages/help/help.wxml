@@ -1,0 +1,25 @@
+<!--pages/help/help.wxml-->
+<navbar back="{{true}}" title="帮助中心"></navbar>
+<div class="header">
+  <text>Hi，很高兴能为你服务~</text>
+</div>
+<div class="container">
+  <text style="display:block;font-size:20px;margin-bottom:30px;">热门问题</text>
+  <div class="items">
+    <div class="item">
+      <image class="left-icon" src="/assets/question.svg"></image>
+      <text style="width:70%;font-size: 18px">数据分析使用说明</text>
+      <image class="right-icon" src="/assets/forward.svg"></image>
+    </div>
+    <div class="item">
+      <image class="left-icon" src="/assets/question.svg"></image>
+      <text style="width:70%;font-size: 18px">如何进行个人情绪监测</text>
+      <image class="right-icon" src="/assets/forward.svg"></image>
+    </div>
+    <div class="item">
+      <image class="left-icon" src="/assets/question.svg"></image>
+      <text style="width:70%;font-size: 18px">如何查看历史数据</text>
+      <image class="right-icon" src="/assets/forward.svg"></image>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,100 @@
+<navbar title="个人中心"></navbar>
+<!--用户头像和昵称-->
+<view class="userInformation">
+  <view class="userInfomation-avatar">
+    <open-data type="userAvatarUrl" ></open-data>
+  </view>
+  <view class="userInformation-nickname">
+    <open-data type="userNickName" ></open-data>
+  </view>
+</view>
+<!--间隔灰横条-->
+<view class="graydivide"></view>
+<!--情绪管理-->
+<navigator url="/pages/emotionManagment/emotinManagment">
+  <view class='function'>
+    <view style="width:100%">
+      <view class="functioninformation"><!--左边图片&文字-->
+        <view class="left-icon"><!--图片-->
+          <image class="icon-picture" src="/icon/emotionManagement.png"></image>
+        </view>
+        <view class="text">情绪管理</view><!--文字-->
+        <view class="right-icon"><!--图片-->
+          <image class="icon-picture" src="/icon/rightArrow.png"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+</navigator>
+<!--间隔灰横条-->
+<view class="graydivide"></view>
+<!--批量历史记录-->
+<navigator url="/pages/emotionHistory/emotionHistory">
+  <view class='function'>
+    <view style="width:100%">
+      <view class="functioninformation"><!--左边图片&文字-->
+        <view class="left-icon"><!--图片-->
+          <image class="icon-picture" src="/icon/emotionHistory.png"></image>
+        </view>
+        <view class="text">批量历史</view><!--文字-->
+        <view class="right-icon"><!--图片-->
+          <image class="icon-picture" src="/icon/rightArrow.png"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+</navigator>
+<!--间隔白横线-->
+<view class="whitedivide"></view>
+<!--个人设置-->
+<navigator url="/pages/setting/setting">
+  <view class='function'>
+    <view style="width:100%">
+      <view class="functioninformation"><!--左边图片&文字-->
+        <view class="left-icon"><!--图片-->
+          <image class="icon-picture" src="/icon/Setting.png"></image>
+        </view>
+        <view class="text">个人设置</view><!--文字-->
+        <view class="right-icon"><!--图片-->
+          <image class="icon-picture" src="/icon/rightArrow.png"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+</navigator>
+<!--间隔白横线-->
+<view class="whitedivide"></view>
+<!--帮助中心-->
+<navigator url="/pages/help/help">
+  <view class='function'>
+    <view style="width:100%">
+      <view class="functioninformation"><!--左边图片&文字-->
+        <view class="left-icon"><!--图片-->
+          <image class="icon-picture" src="/icon/Help.png"></image>
+        </view>
+        <view class="text">帮助中心</view><!--文字-->
+        <view class="right-icon"><!--图片-->
+          <image class="icon-picture" src="/icon/rightArrow.png"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+</navigator>
+<!--间隔灰横条-->
+<view class="graydivide"></view>
+<!--退出-->
+<navigator bindtap="exitSys">
+  <view class='function'>
+    <view style="width:100%">
+      <view class="functioninformation"><!--左边图片&文字-->
+        <view class="left-icon"><!--图片-->
+          <image class="icon-picture" src="/icon/exit.png"></image>
+        </view>
+        <view class="text">退出</view><!--文字-->
+        <view class="right-icon"><!--图片-->
+          <image class="icon-picture" src="/icon/rightArrow.png"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+</navigator>

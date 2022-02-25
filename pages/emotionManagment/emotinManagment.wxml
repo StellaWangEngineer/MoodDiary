@@ -1,0 +1,15 @@
+<!--pages/emotionManagment/emotinManagment.wxml-->
+<navbar back="{{true}}" title="情绪管理"></navbar>
+
+<view class='container'>
+  <div class='ec radar'>
+    <div class="title">
+      <div class='mark'></div>
+      <text>情绪雷达图</text>
+      <ec-canvas id="radar-ec" canvas-id="radar-ec" ec="{{ radarEc }}" />
+    </div>
+  </div>
+  <view class="container2">
+    <canvas canvas-id="radarCanvas" class="canvas" bindtouchstart="touchHandler"></canvas>
+  </view>
+</view>

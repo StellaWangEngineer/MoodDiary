@@ -1,0 +1,42 @@
+<!--pages/home/home.wxml-->
+<navbar pageType="home" />
+<image src="/assets/add.svg" class='add-button' bindtap="handleAdd"></image>
+<div class='container'>
+  <div class='info' style="background:{{info.background}}">
+    <div class="detail">
+      <div class='temp-weat-pos'>
+        <div class='temp-weat'>
+          <text class='temp'>{{today.tmp_min}}℃~{{today.tmp_max}}℃</text>
+           
+        </div>
+        <div class="temp-unit">
+          <text class='weat'>{{today.cond_txt_d}}</text>
+        </div>
+        <div class='pos'>
+
+          <text>{{basic.location}}/{{basic.parent_city}}</text>
+        </div>
+      </div>
+      <div class="others">
+        <text style="display:block" >湿度：{{today.hum}}%</text>
+        <text style="display:block">紫外线指数：{{today.uv_index}}</text>
+        <text style="display:block">{{today.date}}</text>
+      </div>
+    </div>
+    <div class="everyday">每日一句：{{info.everyday}}</div>
+  </div>
+  <div bindtap="goToDetail" data-id="{{item.id}}" wx:for="{{note}}" wx:key="index" class='card'>
+    <div class='left'>
+      <div class='date-week-weat'>
+        <div class='date-week'>
+          {{item.date}} {{item.week}}
+        </div>
+        <div>{{item.weather}}</div>
+      </div>
+      <text style="line-height:50px">{{item.title}}</text>
+    </div>
+    <div class='right'>
+      <image class='right_image' src='{{item.img}}'></image>
+    </div>
+  </div>
+</div>

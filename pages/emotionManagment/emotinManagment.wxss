@@ -1,0 +1,29 @@
+/* pages/emotionManagment/emotinManagment.wxss */
+.container{
+  display: block;
+  padding: 20px 0;
+  height: 500rpx;
+  width: 500rpx;
+}
+
+.title{
+  display: flex;
+  align-items: center;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.mark{
+  display: inline-block;
+  width: 10px;
+  height: 30px;
+  background-color: red;
+  margin-right: 10px;
+  border-radius:3px;
+}
+.container2{
+  display: block;
+  padding: 20px 0;
+  height: 500rpx;
+  width: 500rpx;
+}

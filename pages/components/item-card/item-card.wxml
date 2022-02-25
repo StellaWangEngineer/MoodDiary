@@ -1,0 +1,39 @@
+<!--pages/components/item-card/item-card.wxml-->
+<div class='card'>
+  <div class="header">
+    <div class="date" wx:if="{{date}}">{{date}}</div>
+    <image class="close-icon" wx:if="{{close}}" src="/assets/close.svg" bindtap="onClose"></image>
+  </div>
+  <div class="body" bindtap="onTap">
+    <div class="left">
+      <image class="{{icons[icon].size==='large'?'main-icon-large':'main-icon'}}" style="background-color:{{icons[icon].bgColor}}" src="{{icons[icon].src}}" />
+    </div>
+    <div class="center">
+      <div class='text'>
+        <text class="title">{{title}}</text>
+        <text class="subtitle" wx:if="{{subtitle}}">{{subtitle}}</text>
+      </div>
+    </div>
+    <card class="right">
+    <image wx:if="{{forward}}" class="forward-icon" src="/assets/forward.svg"></image>
+  </card>
+  </div>
+
+  <div class="footer">
+    <div class="ops">
+      <div class='op' wx:if="{{download}}" bindtap="onDownload">
+        <image src="/assets/download.svg" class="op-icon download-icon"></image>
+        <text>下载</text>
+      </div>
+      <div class='op' wx:if="{{preview}}" bindtap="onPreview">
+        <image src="/assets/preview.svg" class="op-icon  preview-icon"></image>
+        <text>预览</text>
+      </div>
+    </div>
+    <progress stroke-width="4" wx:if="{{progress > 0}}" percent="{{progress}}"
+      style="margin: 5px 0"
+    >
+
+    </progress>
+  </div>
+</div>

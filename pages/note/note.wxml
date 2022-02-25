@@ -1,0 +1,29 @@
+<!--pages/note/note.wxml-->
+<navbar back pageType="note" />
+
+<form bindsubmit="save">
+  <div class='container'>
+
+  <view  class='image-aera' bindtap="handleAddImage">
+    <image wx:if="{{condition > 0}}" src="{{image}}" class='image'></image>
+    <image wx:else src="{{image}}" class='image-over'></image>
+  </view>
+
+  <div>
+    <div class='input'>
+      <text style="margin-right:10px">标题</text>
+      <input name="title" style="height:100%;"/>
+    </div>
+    <div class='input' style="height:150px; border-bottom: none;margin-bottom:20px;">
+      <text style="margin-right:10px;width:50px; align-self:flex-start;">事情</text>
+      <textarea name="things" style="height:100%;"/>
+
+    </div>
+
+  </div>
+
+  <button class="save-button" form-type="submit">保 存</button>
+</div>
+</form>
+
+

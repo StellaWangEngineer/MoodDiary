@@ -1,0 +1,45 @@
+/* pages/help/help.wxss */
+.header{
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  height: 150px;
+  background-color: #C7DCEE;
+  border-bottom-left-radius: 80px;
+  border-bottom-right-radius: 80px;
+  display: flex;
+  justify-content: center;
+  padding-top:30px;
+  color:white;
+}
+
+.container{
+  position: absolute;
+  display: block;
+  z-index: 2;
+  margin: 0 auto;
+  left: 20px;
+  right: 20px;
+  height: 50vh;
+  margin-top:100px;
+  background-color: white;
+  border: 1px solid #CCC;
+  border-radius: 30px;
+  padding: 50px 30px;
+}
+
+.item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom:1px solid black;
+  height:60px;
+}
+.left-icon{
+  width: 25px;
+  height: 25px;
+}
+.right-icon{
+  width: 20px;
+  height: 20px;
+}

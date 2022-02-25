@@ -1,0 +1,24 @@
+{
+  "name": "TextAnalyse",
+  "version": "1.0.0",
+  "description": "icon文件夹放置的为小程序内需要的图标",
+  "main": "app.js",
+  "dependencies": {
+    "weui-miniprogram": "^1.0.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sidan-dan/TextAnalyse.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sidan-dan/TextAnalyse/issues"
+  },
+  "homepage": "https://github.com/sidan-dan/TextAnalyse#readme"
+}

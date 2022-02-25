@@ -1,0 +1,101 @@
+/* pages/components/item-card/item-card.wxss */
+
+.card{
+  position: relative;
+  display: flex;
+  padding: 10px 20px;
+  border: 1px solid #EEE;
+  margin: 20px 0;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px #EEE;
+}
+
+.header{
+  display: flex;
+  justify-content: flex-end;
+  min-height: 10px;
+  align-items: center;
+}
+
+.body{
+  display: flex;
+  width: auto;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.center{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 0px 10px;
+  align-items: flex-start;
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.title{
+  font-size: 18px;
+}
+
+.subtitle{
+  font-size: 12px;
+  margin: 5px 0;
+  color:#CBCBCB;
+}
+
+.main-icon{
+  display: block;
+  width: 30px;
+  height: 30px;
+}
+
+.main-icon-large{
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.forward-icon{
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
+.close-icon{
+  width: 20px;
+  height: 20px;
+}
+
+.ops{
+  display: flex;
+  justify-content: flex-end;
+}
+.op{
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  font-size:14px;
+}
+
+.op-icon{
+  width: 20px;
+  height: 20px;
+}
+
+.date{
+  margin: 0 5px;
+  font-size: 14px;
+}
+
+.footer{
+  padding:5px 0;
+}

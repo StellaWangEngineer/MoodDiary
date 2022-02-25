@@ -1,0 +1,60 @@
+<!--pages/dataImport/dataImport.wxml 数据导入-->
+<navbar title="数据导入" back></navbar>
+<div class="container" >
+  <div wx:if="{{step === 'select'}}">
+    <item-card 
+      icon="folder"
+      title="选择本地文件"
+      subtitle="选择手机本地的文档、文件"
+      forward 
+      bindtap="handleFromFile"
+    />
+    <item-card 
+      icon="weixin"
+      title="从微信聊天中选择"
+      subtitle="选择微信聊天里的文件"
+      forward
+      bindtap="handleFromWeixin"
+    />
+    <div class="info">
+      <image class='info-icon' src="/assets/warning.svg"></image>
+      <text style="font-size: 12px">支持格式.xls，单个文件不超过50MB</text>
+    </div>
+  </div>
+  <div wx:elif="{{step === 'analyse'}}">
+    <item-card 
+      icon="{{icon}}"
+      title="{{name}}"
+      close 
+      preview 
+      progress="0" 
+    />
+    <button class='button' bindtap="handleStart">开始分析</button>
+  </div>
+  <div wx:elif="{{step === 'result'}}">
+    <item-card 
+      icon="excel"
+      title="{{name}}"
+      subtitle="上传成功"
+      preview 
+    />
+    <item-card 
+      icon="file"
+      title="{{name}}的情感分析结果"
+      download
+      preview 
+    />
+    <item-card 
+      icon="file"
+      title="{{name}}的主题聚类结果1"
+      download
+      preview 
+    />
+    <item-card 
+      icon="file"
+      title="{{name}}的主题聚类结果2"
+      download
+      preview 
+    />
+  </div>
+</div>

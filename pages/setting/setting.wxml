@@ -1,0 +1,29 @@
+<!--pages/setting/setting.wxml-->
+<navbar title="设置" back="{{true}}"></navbar>
+<div class="container">
+  <div class="item">
+    <text>主题推荐</text>
+    <image class="icon" src="/assets/bell.svg"></image>
+  </div>
+  <div class="item" style="border-bottom: 1px solid #DDD">
+    <text>手机号</text>
+    <text style="color:#C7C7C7">12345678901</text>
+  </div>
+  <div class="item">
+    <text>授权信息</text>
+    <image class="icon" src="/assets/forward.svg"></image>
+  </div>
+  <div class="item">
+    <text>服务条款</text>
+    <image class="icon" src="/assets/forward.svg"></image>
+  </div>
+  <div class="item">
+    <text>隐私政策</text>
+    <image class="icon" src="/assets/forward.svg"></image>
+  </div>
+  <div class="item">
+    <text>反馈</text>
+    <image class="icon" src="/assets/forward.svg"></image>
+  </div>
+
+</div>

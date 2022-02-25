@@ -1,0 +1,46 @@
+/* pages/dataAnalyse/dataAnalyse.wxss */
+.container{
+  position: absolute;
+  display: flex;
+  background-color: #F3F6FA;
+  width: 100%;
+  top:0;
+  bottom: 0;
+  padding: 100px 0;
+  z-index: -1;
+  justify-content: center;
+  flex-direction: column;
+}
+.image{
+  display: flex;
+  width: 100%;
+  height: 40%;
+  align-items: flex-end;
+  padding-bottom: 10px;
+  justify-content: center;
+}
+.icon{
+  position: relative;
+  display: block;
+  height: 60px;
+  width:60px;
+  padding: 30px 30px;
+  border:2px solid #C1DCEE;
+  border-radius: 50%;
+}
+
+.title{
+  display: block;
+  width: 100%;
+  color:#C1DCEE;
+  font-size: 18px;
+  text-align: center;
+}
+
+.buttons{
+  position: absolute;
+  display: block;
+  width: 100%;
+  bottom: 15%;
+
+}

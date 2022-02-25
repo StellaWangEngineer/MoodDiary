@@ -1,0 +1,11 @@
+<!--pages/emotionHistory/emotionHistory.wxml-->
+<navbar back title="历史记录" />
+<div class="container">
+  <item-card wx:for="{{histories}}"
+    date="{{item.date}}"
+    icon="record"
+    title="{{item.title}}"
+    download
+    preview
+  />
+</div>

@@ -1,0 +1,92 @@
+/* pages/home/home.wxss */
+.add-button{
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  border: none;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color:white;
+  box-shadow: 0 1px 3px #DDD;
+}
+
+.container{
+  display: block;
+  padding: 20px 20px;
+}
+
+.info{
+  display: block;
+  height: 150px;
+  border: none;
+  padding: 5% 15%;
+  margin-bottom: 25px;
+  background-color: #daebf7;
+  border-radius: 15px;
+  box-shadow: 0px 5px 8px #AAA;
+}
+.detail{
+  display: flex;
+  height: 80%;
+}
+.everyday{
+  display: block;
+  font-size: 14px;
+}
+.temp-weat-pos{
+  display: block;
+  width: 60%;
+}
+.temp-weat{
+  display: flex;
+}
+.temp{
+  font-size:24px;
+}
+.temp-unit{
+  margin-top: 15px;
+}
+.weat{
+  align-self: flex-end;
+  margin-bottom: 15px;
+}
+
+.others{
+  font-size: 14px;
+}
+.others text{
+  margin-bottom: 5px;
+}
+
+.card{
+  display: flex;
+  height: 120px;
+  border: 1px solid #E7E7E7;
+  margin: 25px 0;
+  border-radius: 15px;
+  box-shadow: 0px 5px 10px #AAA;
+}
+
+.card .right{
+  display:inline-block;
+  width:40%;
+  background-color: #E5EDF7;
+  height:100%;
+  border-top-right-radius:15px;
+  border-bottom-right-radius:15px;
+}
+
+.card .left{
+  display:inline-block;
+  width:50%;
+  padding: 20px 20px;
+}
+
+.date-week-weat{
+  display:flex;justify-content:space-between;
+}
+
+.date-week{
+  display:flex;justify-content:space-between
+}

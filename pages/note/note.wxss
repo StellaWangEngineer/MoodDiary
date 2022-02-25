@@ -1,0 +1,52 @@
+/* pages/note/note.wxss */
+.container{
+  display: block;
+}
+
+.image-aera{
+  display: flex;
+  width: 100%;
+  height: 250px;
+  background-color: #E8E8E8;
+  justify-content: center;
+  align-items: center;
+}
+
+.image{
+  width: 30px;
+  height: 30px;
+}
+
+.image-over{
+  width: 100%;
+  height: 250px;
+  align-items: center;
+}
+
+.input{
+  display: flex;
+  align-items:center;
+  height: 50px;
+  padding: 10px 10px;
+  border-bottom: 1px solid #EEE;
+  font-size:22px;
+}
+
+.icon{
+  display: inline-block;
+  text-align: center;
+  padding-left:10px;
+  padding-top:5px;
+  width: 30px;
+  height: 30px;
+}
+
+.save-button{
+  background-color:#AED4FC;
+  color:white;
+  height:50px;
+  border-radius:20px;
+  font-size:24px;
+  font-weight: 500;
+  
+}

@@ -1,0 +1,18 @@
+<!--pages/components/navbar.wxml-->
+<div class="navbar">
+  <div class="header" wx:if="{{pageType === 'home'}}">
+    <picker mode="date" fields="month" class='date-picker' bindchange="getDate"   value="{{date}}" name='date' >
+      <image src="/assets/calendar.svg" class='icon' />
+    </picker>
+    <text class="text"  >{{date}}</text>
+    <div style="width:35px"></div>
+  </div>
+  <div class='header' wx:elif="{{back}}">
+    <image src="/assets/back.svg" class='icon' bindtap="back" />
+    <text class="text">{{title}}</text>
+    <div style="width:35px"></div>
+  </div>
+  <div class='header' wx:else style="justify-content: center">
+    <text class="text">{{title}}</text>
+  </div>
+</div>

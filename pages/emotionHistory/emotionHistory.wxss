@@ -1,0 +1,38 @@
+/* pages/emotionHistory/emotionHistory.wxss */
+.container{
+  display: block;
+  padding:30px 20px;
+}
+
+.card{
+  display: block;
+  height: 100px; 
+  border: 1px solid black;
+  padding: 10px 10px;
+  border:1px solid #dcdadf;
+  box-shadow: 0 3px 10px #dcdadf;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.content{
+  display:flex;
+  align-items:flex-start;
+  height: 50px;
+}
+
+.operation{
+  display:flex;
+  justify-content:flex-end;
+  align-items: flex-start;
+}
+
+.title-icon{
+  height: 60px;
+  width: 60px;
+}
+
+.icon{
+  height: 25px;
+  width: 25px;
+}

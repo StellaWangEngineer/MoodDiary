@@ -1,0 +1,20 @@
+/* pages/setting/setting.wxss */
+.container{
+  display: block;
+  padding:30px 20px;
+}
+
+.item{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  border-bottom: 1px solid #EEE;
+  height: 60px;
+}
+
+.icon{
+  width:25px;
+  height: 25px;
+}
